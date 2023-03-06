@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 配置DAO -->
+	<bean id="userDao" class="com.itheima.cloudlibrary.dao.impl.UserDaoImpl"/>
+	<bean id="bookDao" class="com.itheima.cloudlibrary.dao.impl.BookDaoImpl"/>
+	<bean id="recordDao" class="com.itheima.cloudlibrary.dao.impl.RecordDaoImpl"/>
+
+	<!-- 配置Service -->
+	<bean id="userService" class="com.itheima.cloudlibrary.service.impl.UserServiceImpl"/>
+	<bean id="bookService" class="com.itheima.cloudlibrary.service.impl.BookServiceImpl"/>
+	<bean id="recordService" class="com.itheima.cloudlibrary.service.impl.RecordServiceImpl"/>
+</beans>
